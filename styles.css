@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/bg-tyler-lastovich-unsplash.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -86,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: #a8c0f3;
 }
 .card {
   margin: 30px;
@@ -109,15 +109,17 @@ ul.skills {
 
 .skills li {
   border-radius: 6px;
+  border: 1px solid orange;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #faf7e8;
+  color: rgb(105, 104, 104);
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #d3f2fa;
+  border: 1px solid royalblue;
 }
 
 footer {
