@@ -47,6 +47,7 @@ a:hover {
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  border-right: 1px solid white;
 }
 .nav a {
   transition: all .5s;
@@ -70,12 +71,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 30%;
-  border: 3px solid rgb(219, 55, 55);
   transition: all .5s;
+  filter: grayscale(80%)
   
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) ;
+  filter: grayscale(0%);
+  border: 3px solid rgb(34, 131, 177);
 }
 .tag {
   background-color: #efefef;
@@ -182,6 +185,16 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
+.article-pic {
+  display: block;
+  margin: 5px auto;
+  max-width: 100%;
+  min-width: 95%;
+  max-height: 350px;
+  
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
