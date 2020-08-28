@@ -106,7 +106,11 @@ header .profile-image:hover {
   border-color: #ff99ff;
 }
 
-.experience{
+.contact {
+  margin: auto;
+}
+
+.experience  {
   margin: 30px auto;
   padding: 20px 40px 40px;
   text-align: left;
@@ -143,6 +147,8 @@ footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  border-top: 1px solid rgb(102, 101, 101);
+  margin-top: 40px;
 }
 
 footer .copyright {
@@ -186,7 +192,7 @@ a.social:hover {
   clear: both;
 }
 
-.article-pic {
+.article-pic, .address-pic{
   display: block;
   margin: 5px auto;
   max-width: 100%;
@@ -195,7 +201,19 @@ a.social:hover {
   
 }
 
+.address-pic{
+  margin-top: 15px;
+}
 
+address ul{
+  list-style: none;
+  line-height: 1.6rem;
+}
+
+.css-validation{
+  float: right;
+  max-height: 20px;
+}
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
@@ -229,7 +247,7 @@ a.social:hover {
   footer {
     font-size: 1.3em;
     max-width: 1200px;
-    margin: 40px auto;
+    margin: 100px auto;
   }
 
 }
