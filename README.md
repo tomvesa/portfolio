@@ -1,1 +1,3 @@
-# portfolio - Project 1 at Team Tree House
+# portfolio - Project 1 
+
+part of Tech Degree course at Team Tree House
